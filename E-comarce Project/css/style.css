@@ -1,0 +1,180 @@
+a:link {color:#FFFFFF; text-decoration: none}
+a:visited {color:#FFFFFF; text-decoration: none}
+a:hover {text-decoration: underline}
+#fnt1 {
+  color:#300;
+  font-size: 14px;
+  font-weight:400;
+  font-family: "arial narrow", arial, sans-serif;
+}
+.fnt
+{
+	color:#300;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.maindiv
+{
+width:900px;
+height:1100px;
+background:#CCC;
+margin:auto;
+position:static;
+}
+.baner
+{
+	width:900px;
+	height:250px;
+	background:url(../images/baner.png);
+	border-color:#F00;
+	
+}
+.headtab
+{
+	padding:20px;
+	border-color:#000;
+	
+}
+.headtab2
+{
+	
+	width: 900px;
+	margin-top:65px;
+	height:50px;
+	position:static;
+	
+	
+	
+}
+
+.leftconten
+{
+	float:left;
+	width:215px;
+	height:500px;
+	background:url(../images/lc.png);
+	color:#FFF;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	position:static;
+
+}
+
+.wr
+{
+	float:right;
+	width:685px;
+	height:500px;
+	
+	position:static;
+}
+.textbox
+	{
+		background:#999;
+		float:left;
+		padding:10px;
+		width:430px;
+		height:470px;
+		color:#300;
+		margin-left:10px;
+		margin-top:10px;
+		font-weight:700;
+		font-family: "arial narrow", arial, sans-serif;
+		
+		
+	}
+	.textbox2
+	{
+		background:#999;
+		float:left;
+		padding:10px;
+		width:430px;
+		height:220px;
+		color:#003;
+		margin-left:10px;
+		margin-top:10px;
+		font-weight:800;
+		font-size:13px;
+		
+		
+	}
+.upc
+	{
+		float:right;
+		background-color:#CCC;
+		width:200px;
+		height:480px;
+		padding:10px;
+		position:static;
+	}
+	.takeC
+	{
+		float:right;
+		background-color:#999;
+		width:213px;
+		height:500px;
+		position:static;
+	}
+.slid
+{
+	margin:auto;
+	width:890px;
+	height:220px;
+	position:static;
+	padding:5px;
+	clear:both;
+	
+	
+	
+}
+
+	/* Start slid*/
+	.img
+	{
+		width:115px;
+		height:100px;
+		background:#999;
+		text-align:center;
+		margin:auto;
+		padding:10px;
+		
+	
+	}
+div.img a:hover img {border: 2px solid  #066;}
+
+.text
+{
+	width:165px;
+	height:180px;
+	text-align:center;
+	float:left;
+	margin-top:25px;
+	padding:5px;
+	
+}
+ 
+						
+	
+	/* End slid*/
+	
+
+	
+
+
+.footertab
+{
+	width:800px;
+	height:100px;
+}
+
+
+
+
+.footer
+{
+	clear:both;
+	width:900px;
+	height:120px;
+	background:url(../images/lc.png);
+	position:static;
+	
+}

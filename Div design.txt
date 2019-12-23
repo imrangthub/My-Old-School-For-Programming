@@ -1,0 +1,137 @@
+<body>
+    <div style="width:800px; margin:0 auto;">
+        centered content
+    </div>
+</body>
+
+
+
+
+
+<div style="width: 60%; margin: 0px auto;">
+         Your Contents Here...
+</div>
+
+
+
+
+
+<div id="outPopUp"></div>
+
+#outPopUp{
+     position:absolute;
+     width:300px;
+     height:200px;
+     z-index:15;
+     top:50%;
+     left:50%;
+     margin:-100px 0 0 -150px;
+     background:red;
+}
+
+
+
+
+
+<body>
+    <div class="centered">
+        centered content
+    </div>
+</body>
+CSS
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* !!! */
+}
+
+.centered {
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org /TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+    <head> 
+        <title></title> 
+        <style type="text/css"> 
+            body 
+            { 
+                margin: 0; 
+                padding: 0; 
+            }
+
+            .common 
+            { 
+                border: 1px solid black; 
+            }
+
+            #supercontainer
+            {
+                width: 1200px;
+                background: aqua; 
+                float: left;
+            }
+
+            #middlecontainer
+            {
+                float: left;
+                width: 104px;
+                margin: 0 549px;
+            }
+
+            #container { 
+                float: left;
+            } 
+
+            #first { 
+                background: red; 
+                height: 102px; 
+                width: 50px; 
+                float:left;
+            }
+
+            #second { 
+                background: green; 
+                height: 50px; 
+                width: 50px;
+            } 
+
+            #third { 
+                background: yellow; 
+                height: 50px; 
+                width: 50px;
+            }
+        </style> 
+    </head> 
+    <body> 
+        <div id="supercontainer">
+            <div id="middlecontainer">
+                <div class="common" id="first">first</div>
+                <div id="container">
+                    <div class="common" id="second">second</div> 
+                    <div class="common" id="third">third</div> 
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

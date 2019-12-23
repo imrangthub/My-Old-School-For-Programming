@@ -1,0 +1,147 @@
+<html>
+<head>
+
+<script type="text/javascript">
+
+function show_prompt()
+
+{
+ 
+var name=prompt("please enter your name","Please Enter Your name");
+if (name!=null && name!=" ")
+{
+document.write("Hello " + name + "! How are you today?");
+ }
+
+
+
+
+
+var d=new Date();
+var time=d.getHours();
+
+
+
+if (time>=5 && time<12)
+
+{
+
+document.write("<b>Good Morning,</b>");
+
+}
+
+else if (time>=12 && time<15)
+
+{
+document.write("<b>good noon</b>");
+
+}
+
+else if (time>=15 && time<20)
+
+{
+document.write("<b>good Evening,</b>");
+
+}
+
+
+else if (time>=20 && time<24)
+
+{
+document.write("<b>good Night,</b>");
+
+}
+
+else if (time>=24 && time<5)
+
+{
+document.write("<b>Oh...!!!! Man this is midnight.</b>");
+
+}
+
+
+else
+{
+
+document.write("<b>this is your gap time.</b>");
+
+}
+
+
+
+
+
+
+
+
+
+var d = new Date();
+theDay=d.getDay();
+
+
+
+
+switch (theDay)
+{
+
+case 0:
+  document.write("<b>Sleepy Sunday</b>");
+  break;
+
+case 1:
+  document.write("<b>Sleepy monday</b>");
+  break;
+
+case 2:
+  document.write("<b>Sleepy Tuesday</b>");
+  break;
+case 3:
+  document.write("<b>Sleepy Wednesday</b>");
+  break;
+
+case 4:
+  document.write("<b>This is Thesday</b>");
+  break;
+
+case 5:
+  document.write("<b>This is Holly Friday</br>imran</b>");
+
+  break;
+case 6:
+  document.write("<b>Super Saturday</b>");
+  break;
+
+default:
+  document.write("<b>I'm really looking forward to this weekend!</b>");
+}
+
+
+
+
+
+
+
+
+}
+</script>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+<input type="button" onclick="show_prompt()" value="Show a prompt box" />
+
+</body>
+</head>

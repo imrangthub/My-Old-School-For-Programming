@@ -1,0 +1,517 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:fb="http://ogp.me/ns/fb#" dir="ltr" lang="en-US">
+<head>
+<!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Welcome to CSLiT | Connecting Technology</title>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/karma.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="css/karma-purple.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="#"/>
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="http://themes.truethemes.net/Karma/wp-content/themes/Karma/css/lt8.css" media="screen"/><![endif]-->
+<style type="text/css">
+#wrapper #main .main-area.home-main-area .main-holder.home-holder .content_full_width .home-jquery-content .one_fourth_last p {
+	text-align: justify;
+}
+</style>
+
+<script language="javascript"> 
+function toggle() {
+	var ele = document.getElementById("toggleText");
+	var text = document.getElementById("displayText");
+	if(ele.style.display == "block") {
+    		ele.style.display = "none";
+		text.innerHTML = "";
+		//text.innerHTML = '<input type="button" value="Like to FaceBook" class="liketoFB"/>';
+  	}
+	else {
+		ele.style.display = "block";
+		text.innerHTML = '<input type="button" value="Hide"/>';
+	}
+} 
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : 'YOUR_APP_ID', // App ID
+      channelUrl : 'http://www.cslitbd.com/channel.php', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+    });
+
+    // Additional initialization code here
+  };
+
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document));
+</script>
+<div id="wrapper">
+<div id="header">
+<div class="top-block">
+<div class="top-holder">
+
+
+
+<!-- ***************** - Top Toolbar Left Side - ***************** -->
+ <div class="sub-nav">
+
+ <ul>
+ <li><a href="http://www.cslitbd.com/">Home</a></li>
+ <li><a href="sitemap.php">Sitemap</a></li>
+ <li><a href="infoboking.php">Contact</a></li>
+ </ul></div><!-- end sub-nav -->
+ <!-- ***************** - END Top Toolbar Left Side - ***************** -->
+ 
+
+
+<!-- ***************** - Top Toolbar Right Side - ***************** -->
+
+<div class="sub-nav2">
+    <ul>
+    <li>
+    <img alt="Hit counter" hspace="0" vspace="0" border="0" src="http://cagemonitor.com/counter.php?id=92bfede8c8d83db09fb3a7b3abe50046&theme=1ft&digits=10&size=sml&siteId=sfc_tpb_"/></a>
+    </li>
+    <li>info@cslitbd.com</li>
+    </ul>
+</div><!-- end sub-nav2 -->
+<!-- ***************** - END Top Toolbar Right Side - ***************** -->
+
+
+</div><!-- end top-holder -->
+</div><!-- end top-block -->
+
+
+
+
+<div class="header-holder">
+<div class="rays">
+<div class="header-area">
+
+
+<!-- ***************** - LOGO - ***************** -->
+<a href="http://www.cslitbd.com/" class="logo"></a>
+<!-- ***************** - END LOGO - ***************** -->
+
+
+
+<!-- ***************** - Main Navigation - ***************** -->
+<ul id="menu-main-nav">
+<li><a href=""><span><strong>About Us</strong><span class="navi-description">Community</span></span></a>
+	<ul class="sub-menu">
+	<li><a href="abtcslit.php"><span>About CSLiT</span></a></li>
+	<li><a href="ourapproach.php"><span>Our Approach</span></a></li>
+	<li><a href="ourtrainers.php"><span>Our Trainers</span></a></li>
+
+	<li><a href="ourofictm.php"><span>Our Office Team</span></a></li>
+	</ul>
+	</li>
+	
+<li><a href=""><span><strong>Services</strong><span class="navi-description">We Provide</span></span></a>
+	<ul class="sub-menu">
+	<li><a href="webd&d.php"><span>Website Design & Development</span></a></li>
+
+	<li><a href="itcnsltng.php"><span>IT Consulting </span></a></li>
+	<li><a href="it&tlecmtrng.php"><span>IT & Telecom Training</span></a></li>
+	<li><a href="industrng.php"><span>Industrial Training</span></a></li>
+	<li><a href="itsrvc&sprt.php"><span>IT Services & Support</span></a></li>
+	<li><a href="tstcntr.php"><span>Test Centre</span></a></li>
+
+	</ul>
+	</li>
+	
+<li><a href=""><span><strong>Training</strong><span class="navi-description">Courses</span></span></a>
+	<ul class="sub-menu">
+	<li><a href=""><span>Telecommunication</span></a> 
+		<ul class="sub-menu">
+	        <li><a href="3g4g.php"><span>3G, 4G (WiMAX & LTE)</span></a></li>
+
+	        <li><a href="wimaxandtelecommunication.php"><span>WiMAX & Telecommunication</span></a></li>
+	        <li><a href="mpls.php"><span>MPLS</span></a></li>
+	        <li><a href="dwdm.php"><span>DWDM</span></a></li>
+	        <li><a href="voip.php"><span>VoIP</span></a></li>
+		</ul>
+        </li>
+
+	<li><a href=""><span>CISCO</span></a>
+		<ul class="sub-menu">
+	        <li><a href="ccna.php"><span>CCNA</span></a></li>
+            <li><a href="ccda.php"><span>CCDA</span></a></li>
+	        <li><a href="ccnavoice.php"><span>CCNA VOICE</span></a></li>
+	        <li><a href="ccnasecurity.php"><span>CCNA Security</span></a></li>
+
+            <li><a href="ccnpr&s.php"><span>CCNP Routing & Switching</span></a></li>
+            <li><a href="ccier&s.php"><span>CCIE Routing & Switching</span></a></li>
+		</ul>
+        </li>
+	<li><a href=""><span>Linux/Unix</span></a>
+		<ul class="sub-menu">
+
+	        <li><a href="linux.php"><span>Linux</span></a></li>
+	        <li><a href="sunsolaris.php"><span>Sun Solaris</span></a></li>
+		</ul>
+        </li>
+	<li><a href=""><span>Microsoft</span></a>
+		<ul class="sub-menu">
+	        <li><a href="mes10.php"><span>Microsoft Exchange Server 2010</span></a></li>
+
+	        <li><a href="mcttpea.php"><span>MCITP Enterprise Administrator</span></a></li>
+		</ul>
+        </li>
+	<li><a href="mikrotic.php"><span>MiKroTik</span></a></li>
+	<li><a href=""><span>Website Design & Development</span></a>
+		<ul class="sub-menu">
+	        <li><a href="hcpm.php"><span>HTML, CSS, PHP & MySQL</span></a></li>
+
+	        <li><a href="gda.php"><span>Graphics Design & Animation</span></a></li>
+	        <li><a href="seo.php"><span>Search Engine Optimization (SEO)</span></a></li>
+		</ul>
+	</li>
+	<li><a href=""><span>Database & Development</span></a>
+		<ul class="sub-menu">
+
+	        <li><a href="anddevlpr.php"><span>Android Development</span></a></li>
+	        <li><a href="adjava.php"><span>Advanced JAVA</span></a></li>
+	        <li><a href="vbnet.php"><span>VB.NET</span></a></li>
+	        <li><a href="aspnet.php"><span>ASP.NET</span></a></li>
+	        <li><a href="orcl10g.php"><span>Oracle 10g DBA</span></a></li>
+		</ul>
+
+	</li>
+	<li><a href=""><span>Others Training</span></a>
+		<ul class="sub-menu">
+	        <li><a href="wacwna.php"><span>Wireless Administration (CWNA)</span></a></li>
+	        <li><a href="vware.php"><span>Virtualization with VMware</span></a></li>
+	        <li><a href="h&ncchnp.php"><span>Hardware & Networking (CCHNP)</span></a></li>
+
+	        <li><a href="electach.php"><span>Electronics Technology</span></a></li>
+	        <li><a href="prologicrct.php"><span>Programmable Logic Circuit (PLC)</span></a></li>
+	        <li><a href="s&we.php"><span>Spoken & Writing English</span></a></li>
+		</ul>
+	</li>
+	</ul>
+</li>
+
+<li><a href=""><span><strong>Learning</strong><span class="navi-description">Zone</span></span></a>
+<ul class="sub-menu">
+	<li><a href="knowldgbase.php"><span>Knowledge Base</span></a></li>
+	<li><a href="http://www.cslitbd.com/cslblog/"><span>Blog</span></a></li>
+	<li><a href="newslatr.php"><span>News Letter Archive</span></a></li>
+	<li><a href="stdntlogin.php"><span>Student Login</span></a></li>
+
+	<li><a href="itjob.php"><span>IT/Telecommunication Jobs</span></a></li>
+	</ul>
+</li>
+
+<li><a href=""><span><strong>GALLERY</strong><span class="navi-description">Archive</span></span></a>
+<ul class="sub-menu">
+	<li><a href="testimonials.php"><span>Testimonials</span></a></li>
+	<li><a href="crsfee.php"><span>Course Schedule & Fees</span></a></li>
+
+    <li><a href="download.php"><span>Download</span></a></li>
+	<li><a href="traincntr.php"><span>The Training Centre</span></a></li>
+	<li><a href="valuedclint.php"><span>Valued Clients</span></a></li>
+	</ul>
+</li>
+
+<li><a href="#"><span><strong>Contact</strong><span class="navi-description">Touch</span></span></a>
+<ul class="sub-menu">
+
+	<li><a href="infoboking.php"><span>Information & Booking</span></a></li>
+	<li><a href="contact_sitemap.php"><span>Site Map</span></a></li>
+	</ul>
+</li>
+
+</ul>
+<!-- ***************** - END Main Navigation - ***************** -->
+
+
+
+
+</div><!-- header-area -->
+</div><!-- end rays -->
+</div><!-- end header-holder -->
+</div><!-- end header -->
+ 
+<div id="main">
+<div class="main-area home-main-area">
+<div class="main-holder home-holder">
+<div class="content_full_width">
+
+<!-- ***************** - Homepage jQuery Slider - ***************** -->
+<div class="home-bnr-jquery">
+<ul>
+<li class="jqslider">
+ <div class="home-banner-main">
+ <h2></h2>
+
+ <p>At <b>CSLiT</b>, we focus on internetworking training in general and Cisco, Juniper, Microsoft & Linux in particular. Ours is an easy, step-by-step approach to inculcate in our students the very basic concepts as well as the intricacies of Internetworking. Our students enter <b>CSLiT</b> as trainees and leave as professionals</p>
+ </div><!-- end home-banner-main -->
+
+ <div class="home-banner-sub">
+ <div class="home-banner-sub-content">
+ <a href="#"><img src="slideimage/slidepix1.JPG" width="404" height="256" /></a><div class="home-banner-bottom">&nbsp;</div>
+
+ </div><!-- end home-banner-sub-content -->
+ </div><!-- end home-banner-sub -->
+</li>
+<li class="jqslider">
+ <div class="home-banner-main">
+ <h2></h2>
+ <p>At <b>CSLiT</b>, we are looking for people who are looking for an opportunity. We are more than just a business. We are bonded by the commitment of our student to deliver a high quality of service and the latest in communications technology to our students in our community. We do it all while providing the challenge, reward, and opportunity for growth that attracts only the very best people.
+</p>
+ </div><!-- end home-banner-main -->
+
+ <div class="home-banner-sub">
+ <div class="home-banner-sub-content">
+ <a href="#"><img src="slideimage/slidepix2.JPG" width="404" height="256" /></a><div class="home-banner-bottom">&nbsp;</div>
+ </div><!-- end home-banner-sub-content -->
+ </div><!-- end home-banner-sub -->
+</li>
+<li class="jqslider">
+ <div class="home-banner-main">
+ <h2></h2>
+
+ <p>Android™ is a software platform for mobile devices. It's powered by a Linux kernel. Android was initially developed by Google and later by the Open Handset Alliance. CSLiT was the first company in Bangladesh to provide commercial Android training classes. We have since trained developers of some of the major phone manufacturers. CSLiT continues to evolve its Android training program as Android platform gets more and more momentum.</p>
+ </div><!-- end home-banner-main -->
+
+ <div class="home-banner-sub">
+ <div class="home-banner-sub-content">
+ <a href="#"><img src="slideimage/slidepix3.JPG" width="404" height="256" /></a><div class="home-banner-bottom">&nbsp;</div>
+ </div><!-- end home-banner-sub-content -->
+ </div><!-- end home-banner-sub -->
+</li>
+
+<li class="jqslider">
+ <div class="home-banner-main">
+ <h2></h2>
+ <p>The WiMAX, 3G & 4G training courses aimed at different sectors of the industry, different job functions and different technical levels – from overviews to in-depth technical planning. Certification programs culminate in a test of knowledge and skills and prove that you have the skills to design, install and operate WiMAX, 3G & 4G networks.</p>
+ </div><!-- end home-banner-main -->
+
+ <div class="home-banner-sub">
+ <div class="home-banner-sub-content">
+
+ <a href="#"><img src="slideimage/slidepix4.JPG" width="404" height="256" /></a><div class="home-banner-bottom">&nbsp;</div>
+ </div><!-- end home-banner-sub-content -->
+ </div><!-- end home-banner-sub -->
+</li>
+</ul></div><!-- end home-bnr-jquery -->
+
+<!-- ***************** - END Homepage jQuery Slider - ***************** -->
+
+
+
+
+
+
+<!-- ***************** - Homepage Content Area - ***************** -->
+
+<div class="home-jquery-content">
+ <div class="callout-wrap"><span>The IT world has changed dramatically over the last few years. IT manufactures and operators need to make the right strategic decisions in terms of services and cost. We know the art of possibilities. CSLiT was built with an ideology to groom and flourish while conquering the distances with the help of versatile networks and communication technologies.</span>
+ </div><!-- end callout-wrap --><br class="clear" />
+
+
+<div class="one_fourth">
+	<div class="modern_img_frame modern_four_col_large">
+<div class="preload_four_col_large">
+ 	<div class="attachment-fadeIn"><a href="ccda.php"><img src="slideimage/window1.png" width="190" height="111" /></a></div></div>
+	</div><!-- end modern_img_frame -->
+ 
+ <h6>CISCO Certifications</h6>
+
+ <p>The Cisco CCNA network associate certification validates the ability to install, configure, operate, and troubleshoot medium-size routed and switched networks, including implementation and verification......</p>
+ <p><a href="ccda.php"><b>More >></b></a></p>
+</div><!-- end first one_fourth_column -->
+
+
+
+<div class="one_fourth">
+	<div class="modern_img_frame modern_four_col_large">
+<div class="preload_four_col_large">
+ 	<div class="attachment-fadeIn"><a href="mes10.php"><img src="slideimage/window2.png" width="190" height="111" /></a></div></div>
+	</div><!-- end modern_img_frame -->
+
+ 
+ <h6>WiMax Certifications</h6>
+ <p>This course is designed to provide a technical overview for technical sales and marketing managers, data communications professionals, software engineers, network design and information......</p>
+ <p><a href="wimaxandtelecommunication.php"><b>More >></b></a></p>
+</div><!-- end second one_fourth_column -->
+
+
+
+<div class="one_fourth">
+	<div class="modern_img_frame modern_four_col_large">
+<div class="preload_four_col_large">
+
+ 	<div class="attachment-fadeIn"><a href="sunsolaris.php"><img src="slideimage/window3.png" width="190" height="111" /></a></div></div>
+	</div><!-- end modern_img_frame -->
+ 
+ <h6>Linux Certifications</h6>
+ <p> System &amp; Network Administration using Sun Solaris will cover all   aspects of SA1, SA2 certification and the basics of UNIX in detail. At   the end of the course delegates will have the skills required to   administe.....</p>
+ <p><a href="sunsolaris.php"><b>More >></b></a></p>
+</div><!-- end third one_fourth_column -->
+
+
+
+<div class="one_fourth_last">
+	<div class="modern_img_frame modern_four_col_large">
+<div class="preload_four_col_large">
+ 	<div class="attachment-fadeIn"><a href="anddevlpr.php"><img  src="slideimage/window4.png" width="190" height="111" /></a></div></div>
+	</div><!-- end modern_img_frame -->
+ 
+ <h6>MikroTik Certifications</h6>
+ <p>This training course will provide you with the skills to configure a MikroTik RouterOS Routerboard as a dedicated router, a bandwidth manager, a secure firewall appliance, a simple wireless access point.....</p>
+
+ <p><a href="anddevlpr.php"><b>More >></b></a></p>
+</div><!-- end fourth one_fourth_column -->
+
+
+
+
+<br class="clear" /> 
+ <div class="testimonials">
+ <blockquote><p>The IT world has changed dramatically over the last few years. IT manufactures and operators need to make the right strategic decisions in terms of services and cost. We know the art of possibilities. CSLiT was built with an ideology to groom and flourish while conquering the distances with the help of versatile networks and communication technologies<cite>&ndash;CSLiT Member</cite></p></blockquote>
+
+ <blockquote><p>The IT world has changed dramatically over the last few years. IT manufactures and operators need to make the right strategic decisions in terms of services and cost. We know the art of possibilities. CSLiT was built with an ideology to groom and flourish while conquering the distances with the help of versatile networks and communication technologies<cite>&ndash;CSLiT Member</cite></p></blockquote>
+
+ </div><!-- END testimonials -->
+</div><!-- end home-jquery-content -->
+
+
+<!-- ***************** - END Homepage Content Area - ***************** --> 
+
+
+</div><!-- end content -->
+
+</div><!-- end main-holder -->
+
+</div><!-- main-area -->
+
+<!-- ***************** - Top Footer - ***************** --> 
+<div id="footer">
+
+<div class="footer-area">
+<div class="footer-wrapper">
+
+<div class="footer-holder">
+
+
+<!-- /***************** - Footer Content Starts Here - ***************** --> 
+<div class="one_fourth">
+ <h3>News Update</h3>
+ <div class="footer_post">
+ <p>To get our recent update, please visit our <a href="http://www.cslitbd.com/cslblog/">blog</a></p>
+ </div><!-- end footer_post -->
+</div><!-- end first one_fourth_column -->
+
+
+
+<div class="one_fourth">
+ <h3>Useful Links</h3>
+ <ul class="blogroll">
+ <li><a href="sitemap.php"><img src="slideimage/wordpress-powerful-shortcodes.png" alt="" title="" />Click Here</a>
+ to check out the trainings we provide</li>
+ </ul>
+
+</div><!-- end second one_fourth_column -->
+
+
+
+<div class="one_fourth">
+<h3>Follow Us On</h3>
+<ul class="social_icons">
+<li><a href="https://www.facebook.com/BDCSLiT" class="facebook" onclick="window.open(this.href);return false;">Facebook</a></li>
+<li><a href="#" class="youtube" onclick="window.open(this.href);return false;">YouTube</a></li></ul>
+
+</div><!-- end third one_fourth_column -->
+<div class="one_fourth_last">
+<h3>Join our Crew</h3>
+
+<div id="mc_signup">
+<form action="career_formActionSubscription.php" id="mc_signup_form">
+<p><input type="hidden" id="mc_submit_type" name="mc_submit_type" value="html" />
+<input type="hidden" name="mcsf_action" value="mc_submit_signup_form" />
+<input type="hidden" id="_mc_submit_signup_form_nonce" name="_mc_submit_signup_form_nonce" value="93e0dda974" />
+<label for="mc_mv_EMAIL" class="mc_var_label">Email Address:</label>
+<br />
+<input type="text" size="18" value="" name="txtEmail" id="mc_mv_EMAIL" class="mc_input"/></p>
+
+<p><br /><input type="submit" name="mc_signup_submit" id="mc_signup_submit" value="Subscribe" class="button" /></p>
+</form>
+</div><!-- end mc_signup -->
+</div><!-- end fourth one_fourth_column -->
+
+
+<!-- ***************** - END Footer Content - ***************** --> 
+
+
+
+
+
+</div><!-- footer-holder -->
+
+
+</div><!-- end footer-wrapper -->
+</div><!-- end footer-area -->
+</div><!-- end footer -->
+
+
+<!-- /***************** - END Top Footer Area - ***************** --> 
+
+
+
+
+
+
+<!-- /***************** - Bottom Footer - ***************** --> 
+
+<div id="footer_bottom">
+ <div class="info">
+ <div id="foot_left"><p>Copyright &copy; 2012 CSLiT | All rights reserved.</p>
+
+ </div><!-- end foot_left -->
+ 
+ 
+ <div id="foot_right">
+ <div class="top-footer"><a href="#" class="link-top">top</a></div>
+ 
+ 
+ </div><!-- end foot_right -->
+ 
+ </div><!-- end info -->
+ 
+</div><!-- end footer_bottom -->
+
+<!-- /***************** - END Bottom Footer - ***************** -->
+ 
+</div><!-- end main -->
+
+</div><!-- end wrapper -->
+
+<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="js/jquery-1-slider.js"></script>
+<script type="text/javascript" src="js/testimonial-slider.js"></script>
+<div id="fbApp">
+<div id="toggleText" style="display: block">
+<div class="xCloseButton">
+<h1>www.cslitbd.com</h1>
+<a href="Javascript:void(0);" onclick="Javascript: toggle('#toggleText',2000 )">
+<img height="20" src="/images/xCloseButton.png">
+</a>
+
+</div>
+<div class="fb-like-box" data-href="https://www.facebook.com/BDCSLiT" data-width="185" data-show-faces="true" data-stream="false" data-header="true"></div>
+</div>
+</div>
+</body>
+</html>
